@@ -1,0 +1,30 @@
+// main-heading
+.main-heading {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 1.5rem;
+}
+
+// Small HEading
+.small-heading {
+  font-size: 15px;
+  color: $text-greey;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.small-label {
+  color: $text-greey;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.under-line::before {
+  content: "";
+    position: absolute;
+    bottom: -44%;
+    right: 0%;
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
