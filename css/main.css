@@ -105,7 +105,7 @@ button {
 }
 
 .form-control {
-  font-size: 14px !important;
+  font-size: 12px !important;
   border: 1px solid #ddd !important;
 }
 
@@ -289,6 +289,236 @@ button {
 }
 .bottom-nav .container .list-item li .dropdown-hover {
   display: flex;
+}
+
+.homeside {
+  background: #f9f9f9;
+  border: 1px solid #eee;
+  padding: 15px;
+  text-align: center;
+  margin: 15px auto;
+  border-radius: 5px;
+}
+.homeside .logo {
+  margin: 0 auto 10px;
+}
+.homeside .logo img {
+  max-width: 100%;
+  max-height: 190px;
+}
+.homeside h1 {
+  font-size: 19px;
+  color: #333;
+  line-height: 1.4;
+}
+.homeside h2 {
+  font-size: 17px;
+  color: #444;
+}
+.homeside h3 {
+  font-size: 14px;
+  color: #555;
+  background: transparent;
+  font-weight: normal;
+  padding: 0;
+  border: none;
+}
+.homeside .date {
+  font-size: 13px;
+  margin: 10px auto;
+  color: red;
+}
+.homeside .userditelslist {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 5px 0px;
+}
+.homeside .userditelslist p {
+  background-color: #fcfcfc;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  color: #666666;
+  display: block;
+  font-size: 14px;
+  margin: 10px;
+  padding: 5px 10px;
+  text-align: right;
+}
+.homeside .userditelslist p b {
+  color: #ffa000;
+  font-weight: normal;
+}
+.homeside .userditelslist span {
+  background-color: #ffa000;
+  border-radius: 3px;
+  color: #000;
+  display: block;
+  font-weight: bold;
+  margin: 10px;
+  padding: 6px 10px;
+  text-align: center;
+}
+
+.saderform {
+  background-color: #f9f9f9;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  padding: 0 15px;
+  margin: 15px auto 0;
+}
+.saderform .title {
+  border-bottom: 1px solid #e1e1e1;
+  color: #444;
+  display: block;
+  font-size: 16px;
+  margin: 0 auto 15px;
+  padding: 10px 0;
+  position: relative;
+}
+.saderform .title::before {
+  content: "";
+  background-color: #008033;
+  bottom: -2px;
+  height: 3px;
+  position: absolute;
+  right: 0;
+  width: 10%;
+}
+.saderform .title .date {
+  color: #444444;
+  float: left;
+  font-family: tahoma;
+  font-size: 13px;
+  line-height: 30px;
+}
+.saderform .content {
+  padding: 0 0 15px;
+}
+.saderform .content .form-control {
+  color: #444444;
+  font-size: 14px;
+  height: 40px;
+}
+.saderform .content .form-control::-moz-placeholder {
+  font-size: 11px !important;
+}
+.saderform .content .form-control:-ms-input-placeholder {
+  font-size: 11px !important;
+}
+.saderform .content .form-control::placeholder {
+  font-size: 11px !important;
+}
+.saderform .content button {
+  background-color: #0e9447;
+  border: medium none;
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  font-size: 14px;
+  height: 40px;
+  padding: 0 10px;
+  width: 100%;
+  transition: 300ms;
+}
+.saderform .content button:hover {
+  background-color: rgb(60, 83, 109);
+}
+
+.userstatistic .alert {
+  margin: 15px auto;
+  padding: 15px;
+  text-align: center;
+}
+.userstatistic .alert p {
+  display: block;
+  margin: 0px auto;
+}
+
+.usertistictable .titlesadertable {
+  background: linear-gradient(rgb(0, 128, 51) 0%, rgb(14, 148, 71) 100%);
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 7px;
+  text-align: center;
+  border-radius: 5px 5px 0px 0px;
+}
+.usertistictable .titlesadertable.queck_search {
+  background: #1976d2;
+}
+.usertistictable .contentsadertable {
+  background-color: rgb(249, 249, 249);
+  border: 1px solid rgb(238, 238, 238);
+  margin: 0px auto 15px;
+  border-radius: 0px 0px 5px 5px;
+}
+.usertistictable .contentsadertable table.table {
+  margin: 0px auto;
+}
+.usertistictable .contentsadertable table thead th {
+  background-color: rgb(14, 148, 71);
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  font-weight: bold;
+  line-height: normal;
+  padding: 6px;
+  text-align: center;
+  vertical-align: middle;
+  border: medium none !important;
+}
+.usertistictable .contentsadertable tbody tr.danger {
+  background-color: #f2dede;
+}
+.usertistictable .contentsadertable tbody tr td {
+  border-bottom: 1px solid #eeeeee;
+  border-top: medium none;
+  color: #0e9447;
+  font-size: 11px;
+  line-height: normal;
+  padding: 7px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.usertistictable .titlesadertable.queck_search,
+.usertistictable .titlesadertable.out_id {
+  background: #1976d2;
+}
+
+.usertistictable .contentsadertable.queck_search table tbody tr td,
+.usertistictable .contentsadertable.out_id table tbody tr td {
+  color: #1287e4;
+}
+
+.usertistictable .contentsadertable button.searchbut {
+  background-color: #2ecc71;
+  border: 1px solid #27ae60;
+  border-radius: 3px;
+  color: #ffffff;
+  display: block;
+  height: 35px;
+  width: 100%;
+}
+
+.usertistictable .contentsadertable.queck_search button.searchbut,
+.usertistictable .contentsadertable.out_id button.searchbut {
+  background: #2196f3;
+  border-color: #1287e4;
+}
+
+.usertistictable .contentsadertable span.whosonline {
+  background-color: #fbfbfb;
+  display: block;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+}
+.usertistictable .contentsadertable span.whosonline a {
+  color: #0e9447;
+  outline: medium none;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
 .btn-main-sm {
