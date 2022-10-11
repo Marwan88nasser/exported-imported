@@ -123,7 +123,7 @@
               <div class="title">
                 <span>
                   <a href="index.html" class="text-main-color">الرئيسية - </a>
-                  اضافة صادر جديد
+                  اضافة وارد جديد
                 </span>
               </div>
               <div class="content">
@@ -144,18 +144,18 @@
                     <div class="inp-holder">
                       <label for="" class="small-label">الجهات</label>
                       <select class="main-select w-100" id="" name="">
-                        <option>البلدية</option>
-                        <option>البلدية</option>
-                        <option>مكتب الرياض</option>
-                        <option>مكتب جدة</option>
-                        <option>آخرى</option>
+                        <option value="5">البلدية</option>
+                        <option value="6">البلدية</option>
+                        <option value="7">مكتب الرياض</option>
+                        <option value="8">مكتب جدة</option>
+                        <option value="0">آخرى</option>
                       </select>
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="inp-holder">
                       <label for="" class="small-label">درجة الاهمية</label>
-                      <select class="main-select w-100" name="">
+                      <select class="main-select w-100">
                         <option value="1">عاجل</option>
                         <option value="2">هام </option>
                         <option value="3">سري</option>
@@ -228,14 +228,30 @@
                   </div>
                   <div class="col-md-3">
                     <div class="inp-holder">
-                      <label for="" class="small-label">رقم المعاملة</label>
+                      <label for="" class="small-label">رقم المعاملة الخارجي</label>
                       <input type="text" class="form-control" />
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="inp-holder">
-                      <label for="" class="small-label">سنة المعاملة</label>
+                      <label for="" class="small-label">تاريخ المعاملة الخارجي</label>
                       <input type="text" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="col-md-3 d-flex align-items-end">
+                    <div class="inp-holder mb-1 d-flex align-items-center gap-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          نعم
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          لا
+                        </label>
+                      </div>
                     </div>
                   </div>
                   <div class="col-md-3 d-flex align-items-end">
@@ -253,15 +269,15 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <div class="inp-holder">
                       <label for="" class="small-label">المرفقات</label>
                         <input type="file" class="form-control h-100">
                     </div>
                   </div>
-                  <div class="col-md-4 d-flex align-items-end">
+                  <div class="col-md-3 d-flex align-items-end">
                     <div class="inp-holder">
-                      <button class="btn btn-info btn-sm px-4">سحب صورة من الماسح الضوئي</لاع>
+                      <button class="btn btn-info btn-sm">سحب صورة من الماسح الضوئي</لاع>
                     </div>
                   </div>
                   <div class="col-12 mt-4">

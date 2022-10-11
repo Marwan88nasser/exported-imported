@@ -31,6 +31,10 @@ button {
 .form-control {
   font-size: 12px !important;
   border: 1px solid $light-grey-color !important;
+  color: #444444 !important;
+  &::placeholder {
+    font-size: 12px !important;
+  }
 }
 
 .form-floating {
@@ -78,5 +82,28 @@ button {
   color: $white-color;
   &:hover {
     color: $white-color;
+  }
+}
+
+.saderform {
+  .content {
+    .table {
+      td {
+        border: 1px solid #dddddd;
+        font-size: 14px;
+        color: #777;
+        line-height: normal;
+        padding: 5px 10px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.form-check {
+  padding-right: 1.5em !important;
+  .form-check-input {
+    float: right !important;
+    margin-right: -1.5em !important;
   }
 }

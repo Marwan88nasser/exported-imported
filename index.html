@@ -65,6 +65,24 @@
               <i class="i-item fa-solid fa-house"></i>
             </a>
           </li>
+          <li>
+            <a class="item" href="./export.html">
+              اضافة صادر جديد
+              <i class="i-item fa-solid fa-file-export"></i>
+            </a>
+          </li>
+          <li>
+            <a class="item" href="./import.html">
+              اضافة وارد جديد
+              <i class="i-item fa-solid fa-file-arrow-up"></i>
+            </a>
+          </li>
+          <li>
+            <a class="item" href="reports.html">
+              التقارير
+              <i class="i-item fa-solid fa-file-arrow-up"></i>
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -109,7 +127,10 @@
           <div class="col-lg-9">
             <div class="saderform first_saderform">
               <div class="title">
-                <span><a href="#">الرئيسية - واجهة الموظفين</a></span>
+                <span>
+                  <a href="index.html" class="text-main-color">الرئيسية -</a>
+                  واجهة الموظفين
+                </span>
                 <div class="date">
                   الثلاثاء 4 أكتوبر 2022 ميلادى - 9 ربيع أول 1444 هجرى
                   &nbsp;&nbsp;
@@ -147,10 +168,7 @@
                       />
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-3">
-                      <select
-                        class="main-select h-100 w-100"
-                        name="type_transaction"
-                      >
+                      <select class="main-select w-100" name="type_transaction">
                         <option value="type_transaction">نوع المعاملة</option>
                         <option value="import">وارد</option>
                         <option value="export">صادر</option>
@@ -159,7 +177,7 @@
                       </select>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-2">
-                      <button type="submit">بحث</button>
+                      <button type="submit" class="search-btn">بحث</button>
                     </div>
                   </div>
                 </form>
@@ -175,7 +193,6 @@
                     </a>
                   </div>
                 </div>
-                <!-- end col-lg-4 -->
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                   <div class="alert alert-success" role="alert">
                     <a href="#">
@@ -184,7 +201,6 @@
                     </a>
                   </div>
                 </div>
-                <!-- end col-lg-4 -->
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                   <div class="alert alert-danger" role="alert">
                     <a href="#">
@@ -193,7 +209,6 @@
                     </a>
                   </div>
                 </div>
-                <!-- end col-lg-4 -->
               </div>
             </div>
             <div class="usertistictable">
@@ -203,15 +218,15 @@
                   <table class="table">
                     <thead>
                       <tr>
-                        <th width="10%">رقم المعامله</th>
-                        <th width="5%">المرفقات</th>
-                        <th width="15%">تاريخ المعاملة</th>
-                        <th width="15%">اضيف بواسطة</th>
-                        <th width="15%">القسم</th>
-                        <th width="10%">نوع المعاملة</th>
-                        <th width="15%">موضوع المعامله</th>
-                        <th width="5%">باركود</th>
-                        <th width="15%">ادارة</th>
+                        <th>رقم المعامله</th>
+                        <th>المرفقات</th>
+                        <th>تاريخ المعاملة</th>
+                        <th>اضيف بواسطة</th>
+                        <th>القسم</th>
+                        <th>نوع المعاملة</th>
+                        <th>موضوع المعامله</th>
+                        <th>باركود</th>
+                        <th>ادارة</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -242,23 +257,21 @@
                           ></a>
                           <a
                             href="#"
-                            class="btn btn-effect-ripple btn-sm btn-danger"><i class="fa fa-trash"></i></a>
-                          <a
-                            href="#"
-                            class="btn btn-sm btn-warning"><i class="fa-solid fa-print"></i></a>
+                            class="btn btn-effect-ripple btn-sm btn-danger"
+                            ><i class="fa fa-trash"></i
+                          ></a>
+                          <a href="#" class="btn btn-sm btn-warning"
+                            ><i class="fa-solid fa-print"></i
+                          ></a>
                         </td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
-                <!-- end table-responsive -->
                 <div class="paginationitem"></div>
-
-                <!-- end paginationitem -->
               </div>
-              <!-- end contentsadertable -->
               <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6">
                   <div class="titlesadertable queck_search">البحث السريع</div>
                   <div class="contentsadertable queck_search">
                     <form method="get">
@@ -277,7 +290,7 @@
                               </td>
                               <td width="10%">سنة الصادر/الوارد</td>
                               <td width="13%">
-                                <select name="year" class="form-control main-select">
+                                <select name="year" class="main-select w-100">
                                   <option value="1430">1430هـ</option>
                                   <option value="1431">1431هـ</option>
                                   <option value="1432">1432هـ</option>
@@ -298,7 +311,7 @@
                                 </select>
                               </td>
                               <td width="10%">
-                                <button class="searchbut" type="submit">
+                                <button class="searchbut w-100" type="submit">
                                   بحث
                                 </button>
                               </td>
@@ -306,14 +319,10 @@
                           </tbody>
                         </table>
                       </div>
-                      <!-- end table-responsive -->
                     </form>
                   </div>
-                  <!-- contentsadertable -->
                 </div>
-                <!-- end col-lg-12 -->
-
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-6">
                   <div class="titlesadertable out_id">
                     بحث بحسب المعاملات الخارجية
                   </div>
@@ -338,11 +347,11 @@
                                   type="text"
                                   name="date_number_out"
                                   value=""
-                                  class="form-control othercal is-calendarsPicker"
+                                  class="form-control"
                                 />
                               </td>
                               <td width="10%">
-                                <button class="searchbut" type="submit">
+                                <button class="searchbut w-100" type="submit">
                                   بحث
                                 </button>
                               </td>
@@ -350,12 +359,9 @@
                           </tbody>
                         </table>
                       </div>
-                      <!-- end table-responsive -->
                     </form>
                   </div>
-                  <!-- contentsadertable -->
                 </div>
-
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                   <div class="titlesadertable">اضافة اشعار جديد</div>
                   <div class="contentsadertable" style="padding: 10px">
@@ -379,7 +385,11 @@
                         <label for="level" class="small-label"
                           >مستوي الاشعار</label
                         >
-                        <select class=" main-select w-100" id="level" name="level">
+                        <select
+                          class="main-select w-100"
+                          id="level"
+                          name="level"
+                        >
                           <option value="success">رسالة عامة</option>
                           <option value="warning">تنبيه</option>
                           <option value="danger">هام للغاية</option>
@@ -406,7 +416,6 @@
                     </form>
                   </div>
                 </div>
-
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                   <div class="titlesadertable">المتواجدون الأن (1)</div>
                   <div class="contentsadertable">
@@ -414,14 +423,8 @@
                       <a href="#">محمد العلي</a>,
                     </span>
                   </div>
-                  <!-- contentsadertable -->
                 </div>
-                <!-- end col-lg-12 -->
-                <!-- <div class="clearfix"></div> -->
-
-                <div class="clearfix"></div>
               </div>
-              <!-- end row -->
             </div>
           </div>
         </div>
