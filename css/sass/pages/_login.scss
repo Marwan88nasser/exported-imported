@@ -1,0 +1,144 @@
+// Start Login
+section.page-login {
+  padding: 1.5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  align-items: center;
+  background-color: rgba(249, 250, 251, 1);
+  .form-login {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%),
+      0 10px 10px -5px rgb(0 0 0 / 4%);
+    max-width: 56rem;
+    margin-left: auto;
+    overflow: hidden;
+    margin-right: auto;
+    height: 100%;
+    // flex: 1 1 0%;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    border: 0 solid #d5d6d7;
+    .box-login {
+      flex-direction: column;
+      display: flex;
+      @media (min-width: 768px) {
+        flex-direction: row;
+      }
+      .img-login {
+        height: 8rem;
+        @media (min-width: 768px) {
+          height: auto;
+          width: 50%;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transform: scaleX(-1);
+        }
+      }
+      .content-login {
+        @media (min-width: 768px) {
+          width: 50%;
+        }
+        padding: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .site-title {
+          margin-bottom: 1.7rem;
+          position: relative;
+          font-size: 19px;
+          text-align: center;
+          color: #6b7280;
+          &::before,
+          &::after {
+            content: "";
+            position: absolute;
+            height: 2px;
+            right: 86px;
+            background-color: #2ba670;
+          }
+          &::before {
+            bottom: -10px;
+            width: 20%;
+          }
+          &::after {
+            bottom: -17px;
+            width: 15%;
+          }
+        }
+        .title {
+          margin-bottom: 1.4rem;
+          font-size: 16px;
+          font-weight: 600;
+          color: #6b7280;
+        }
+        .login-lable {
+          color: #6b7280;
+          font-size: 11px;
+          margin-bottom: 5px;
+        }
+        .form-control {
+          &:focus {
+            box-shadow: 0 0 0 3px rgb(202 191 253 / 45%) !important;
+          }
+        }
+        .acc-new {
+          display: block;
+          color: $main-color;
+        }
+        .sub {
+          transition-duration: 0.15s;
+          transition-property: background-color, border-color, color, fill,
+            stroke;
+          width: 100%;
+          color: white;
+          text-align: center;
+          padding-right: 1rem;
+          padding-left: 1rem;
+          padding-bottom: 0.5rem;
+          padding-top: 0.5rem;
+          margin-top: 1rem;
+          line-height: 1.25rem;
+          font-weight: 500;
+          border-radius: 0.5rem;
+          background-color: $main-color;
+          cursor: pointer;
+        }
+        .logo-footer {
+          width: 55px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .site-title {
+    &::before,
+    &::after {
+      right: 100px !important;
+    }
+    &::after {
+      right: 106px !important;
+    
+    }
+  }
+}
+
+@media (min-width: 767px) and (max-width: 930px) {
+  .site-title {
+    &::before,
+    &::after {
+      right: 126px !important;
+    }
+    &::after {
+      right: 133px !important;
+      
+    }
+  }
+}
+
+// End Login

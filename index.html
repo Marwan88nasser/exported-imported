@@ -71,367 +71,364 @@
     <!-- End Bottom Nav Bar -->
     <!-- Start Section -->
     <section class="main-section home">
-      <div class="container">
-        <h4 class="main-heading mb-5">الرئيسية</h4>
-        <div class="bg-white p-3 rounded-3 shadow-sm">
-          <div class="row">
-            <div class="col-md-3">
-              <div class="homeside">
-                <div class="logo">
-                  <a href="#">
-                    <img src="img/footer/logo-light.png" />
-                  </a>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="homeside">
+              <div class="logo">
+                <a href="#">
+                  <img src="img/footer/logo-light.png" />
+                </a>
+              </div>
+              <!-- logo -->
+              <h1>وزارة الداخلية</h1>
+              <h2>امارة عسير</h2>
+              <h3>مركز البشائر</h3>
+              <div class="date">
+                <div id="clock">
+                  الثلاثاء 4 من اكتوبر 2022 , الساعة الان 12:21:12 صباحاً .
                 </div>
-                <!-- logo -->
-                <h1>وزارة الداخلية</h1>
-                <h2>امارة عسير</h2>
-                <h3>مركز البشائر</h3>
-                <div class="date">
-                  <div id="clock">
-                    الثلاثاء 4 من اكتوبر 2022 , الساعة الان 12:21:12 صباحاً .
-                  </div>
-                </div>
-                <div class="userditelslist">
-                  <p>الصادر : <b>1</b></p>
-                  <p>الوارد : <b>1</b></p>
-                  <p>الأرشيف : <b>1</b></p>
-          
-                  <span>إحصائيات اليوم</span>
-                  <p>معاملات الأقسام : <b>0</b></p>
-                  <p>معاملاتي : <b>0</b></p>
-                  <span>إحصائيات الشهر</span>
-                  <p>معاملات الأقسام : <b>0</b></p>
-                  <p>معاملاتي : <b>0</b></p>
-                  <span>إحصائيات السنة</span>
-                  <p>معاملات الأقسام : <b>0</b></p>
-                  <p>معاملاتي : <b>0</b></p>
-                </div>
+              </div>
+              <div class="userditelslist">
+                <p>الصادر : <b>1</b></p>
+                <p>الوارد : <b>1</b></p>
+                <p>الأرشيف : <b>1</b></p>
+
+                <span>إحصائيات اليوم</span>
+                <p>معاملات الأقسام : <b>0</b></p>
+                <p>معاملاتي : <b>0</b></p>
+                <span>إحصائيات الشهر</span>
+                <p>معاملات الأقسام : <b>0</b></p>
+                <p>معاملاتي : <b>0</b></p>
+                <span>إحصائيات السنة</span>
+                <p>معاملات الأقسام : <b>0</b></p>
+                <p>معاملاتي : <b>0</b></p>
               </div>
             </div>
-            <div class="col-md-9">
-              <div class="saderform first_saderform">
-                <div class="title">
-                  <span><a href="#">الرئيسية - واجهة الموظفين</a></span>
-                  <div class="date">
-                    الثلاثاء 4 أكتوبر 2022 ميلادى - 9 ربيع أول 1444 هجرى
-                    &nbsp;&nbsp;
-                  </div>
-                  <div class="clearfix"></div>
+          </div>
+          <div class="col-md-9">
+            <div class="saderform first_saderform">
+              <div class="title">
+                <span><a href="#">الرئيسية - واجهة الموظفين</a></span>
+                <div class="date">
+                  الثلاثاء 4 أكتوبر 2022 ميلادى - 9 ربيع أول 1444 هجرى
+                  &nbsp;&nbsp;
                 </div>
-                <div class="content">
-                  <form method="get">
-                    <div class="row">
-                      <div class="col-xs-12 col-sm-6 col-lg-2">
-                        <label for="#">بحث شخصي</label>
+                <div class="clearfix"></div>
+              </div>
+              <div class="content">
+                <form method="get">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-lg-2">
+                      <label for="#">بحث شخصي</label>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-2">
+                      <input
+                        type="text"
+                        name="civil_registry"
+                        value=""
+                        placeholder="بحث بالسجل المدني"
+                        class="form-control"
+                      />
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-2">
+                      <input
+                        type="text"
+                        name="phone_number"
+                        value=""
+                        placeholder="بحث برقم الجوال"
+                        class="form-control"
+                      />
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-2">
+                      <input
+                        type="text"
+                        name="name"
+                        value=""
+                        placeholder="بحث بالإسم"
+                        class="form-control"
+                      />
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-3">
+                      <select class="form-control" name="type_transaction">
+                        <option value="type_transaction">نوع المعاملة</option>
+                        <option value="import">وارد</option>
+                        <option value="export">صادر</option>
+                        <option value="archive">الأرشيف</option>
+                        <option value="all">الكل</option>
+                      </select>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-1">
+                      <button type="submit">بحث</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="userstatistic">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="alert alert-info" role="alert">
+                    <a href="#">
+                      <span>معاملات تحت المتابعة</span>
+                      <p>1</p>
+                    </a>
+                  </div>
+                </div>
+                <!-- end col-lg-4 -->
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="alert alert-success" role="alert">
+                    <a href="#">
+                      <span>عدد المعاملات المضافة بواسطتك </span>
+                      <p>3</p>
+                    </a>
+                  </div>
+                </div>
+                <!-- end col-lg-4 -->
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="alert alert-danger" role="alert">
+                    <a href="#">
+                      <span>معاملات متأخرة</span>
+                      <p>1</p>
+                    </a>
+                  </div>
+                </div>
+                <!-- end col-lg-4 -->
+              </div>
+            </div>
+            <div class="usertistictable">
+              <div class="titlesadertable">معاملات تحت المتابعة</div>
+              <div class="contentsadertable">
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th width="10%">رقم المعامله</th>
+                        <th width="5%">المرفقات</th>
+                        <th width="15%">تاريخ المعاملة</th>
+                        <th width="15%">اضيف بواسطة</th>
+                        <th width="15%">القسم</th>
+                        <th width="10%">نوع المعاملة</th>
+                        <th width="15%">موضوع المعامله</th>
+                        <th width="5%">باركود</th>
+                        <th width="15%">ادارة</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td colspan="9">انتهى وقتها مر عليها 5 ساعة</td>
+                      </tr>
+
+                      <tr class="danger">
+                        <td>2</td>
+                        <td>0</td>
+                        <td>21 / 12 / 1440</td>
+                        <td>
+                          محمد العلي
+                          <a href="" class="btn btn-primary btn-sm"
+                            ><i class="fa fa-cloud"></i
+                          ></a>
+                        </td>
+                        <td>شؤن الموظفين</td>
+                        <td><span class="label label-info">وارد</span></td>
+                        <td>دعوى كيدية</td>
+                        <td>
+                          <a
+                            class="btn btn-outline-secondary btn-sm"
+                            href=""
+                            target="_blank"
+                            ><!-- طبع الباركود --><i class="fa fa-barcode"></i
+                          ></a>
+                        </td>
+                        <td>
+                          <a class="btn btn-info btn-sm" href=""
+                            ><i class="fa fa-edit"></i
+                          ></a>
+
+                          <a
+                            href="#"
+                            data-href=""
+                            data-toggle="modal"
+                            data-target="#confirm-delete"
+                            class="btn btn-effect-ripple btn-sm btn-danger"
+                            ><i class="fa fa-trash"></i
+                          ></a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- end table-responsive -->
+                <div class="paginationitem"></div>
+
+                <!-- end paginationitem -->
+              </div>
+              <!-- end contentsadertable -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                  <div class="titlesadertable queck_search">البحث السريع</div>
+                  <div class="contentsadertable queck_search">
+                    <form method="get">
+                      <div class="table-responsive">
+                        <table class="table">
+                          <tbody>
+                            <tr>
+                              <td width="7%">رقم المعامله</td>
+                              <td width="10%">
+                                <input
+                                  type="text"
+                                  name="index_num"
+                                  value=""
+                                  class="form-control"
+                                />
+                              </td>
+                              <td width="10%">سنة الصادر/الوارد</td>
+                              <td width="13%">
+                                <select name="year" class="form-control">
+                                  <option value="1430">1430هـ</option>
+                                  <option value="1431">1431هـ</option>
+                                  <option value="1432">1432هـ</option>
+                                  <option value="1433">1433هـ</option>
+                                  <option value="1434">1434هـ</option>
+                                  <option value="1435">1435هـ</option>
+                                  <option value="1436">1436هـ</option>
+                                  <option value="1437">1437هـ</option>
+                                  <option value="1438">1438هـ</option>
+                                  <option value="1439">1439هـ</option>
+                                  <option value="1440">1440هـ</option>
+                                  <option value="1441">1441هـ</option>
+                                  <option value="1442">1442هـ</option>
+                                  <option value="1443">1443هـ</option>
+                                  <option value="1444" selected="">
+                                    1444هـ
+                                  </option>
+                                </select>
+                              </td>
+                              <td width="10%">
+                                <button class="searchbut" type="submit">
+                                  بحث
+                                </button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
-                      <div class="col-xs-12 col-sm-6 col-lg-2">
-                        <input
-                          type="text"
-                          name="civil_registry"
-                          value=""
-                          placeholder="بحث بالسجل المدني"
+                      <!-- end table-responsive -->
+                    </form>
+                  </div>
+                  <!-- contentsadertable -->
+                </div>
+                <!-- end col-lg-12 -->
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                  <div class="titlesadertable out_id">
+                    بحث بحسب المعاملات الخارجية
+                  </div>
+                  <div class="contentsadertable out_id">
+                    <form method="get">
+                      <div class="table-responsive">
+                        <table class="table">
+                          <tbody>
+                            <tr>
+                              <td width="7%">رقم المعاملة الخارجي</td>
+                              <td width="10%">
+                                <input
+                                  type="text"
+                                  name="id_number_out"
+                                  value=""
+                                  class="form-control"
+                                />
+                              </td>
+                              <td width="10%">تاريخ المعاملة الخارجي</td>
+                              <td width="13%">
+                                <input
+                                  type="text"
+                                  name="date_number_out"
+                                  value=""
+                                  class="form-control othercal is-calendarsPicker"
+                                />
+                              </td>
+                              <td width="10%">
+                                <button class="searchbut" type="submit">
+                                  بحث
+                                </button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- end table-responsive -->
+                    </form>
+                  </div>
+                  <!-- contentsadertable -->
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                  <div class="titlesadertable">اضافة اشعار جديد</div>
+                  <div class="contentsadertable" style="padding: 10px">
+                    <form method="" action="">
+                      <div class="form-group mb-3">
+                        <label for="empgroup" class="small-label">القسم</label>
+                        <select
                           class="form-control"
-                        />
-                      </div>
-                      <div class="col-xs-12 col-sm-6 col-lg-2">
-                        <input
-                          type="text"
-                          name="phone_number"
-                          value=""
-                          placeholder="بحث برقم الجوال"
-                          class="form-control"
-                        />
-                      </div>
-                      <div class="col-xs-12 col-sm-6 col-lg-2">
-                        <input
-                          type="text"
-                          name="name"
-                          value=""
-                          placeholder="بحث بالإسم"
-                          class="form-control"
-                        />
-                      </div>
-                      <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <select class="form-control" name="type_transaction">
-                          <option value="type_transaction">نوع المعاملة</option>
-                          <option value="import">وارد</option>
-                          <option value="export">صادر</option>
-                          <option value="archive">الأرشيف</option>
-                          <option value="all">الكل</option>
+                          id="empgroup"
+                          name="empgroup"
+                        >
+                          <optgroup label="0">
+                            <option value="5">الاتصالات الادارية</option>
+                            <option value="6">موظفي الشؤن الادارية</option>
+                            <option value="7">مجموعة الارشيف</option>
+                          </optgroup>
+                          <option value="all">all</option>
                         </select>
                       </div>
-                      <div class="col-xs-12 col-sm-6 col-lg-1">
-                        <button type="submit">بحث</button>
+                      <div class="form-group mb-3">
+                        <label for="level" class="small-label"
+                          >مستوي الاشعار</label
+                        >
+                        <select class="form-control" id="level" name="level">
+                          <option value="success">رسالة عامة</option>
+                          <option value="warning">تنبيه</option>
+                          <option value="danger">هام للغاية</option>
+                        </select>
                       </div>
-                    </div>
-                  </form>
+                      <div class="form-group mb-3">
+                        <label for="message" class="small-label"
+                          >رسالة الاشعار</label
+                        >
+                        <textarea
+                          class="form-control"
+                          placeholder="رسالة الاشعار"
+                          name="message"
+                          cols="50"
+                          rows="10"
+                          id="message"
+                        ></textarea>
+                      </div>
+                      <input
+                        class="btn btn-success btn-sm"
+                        type="submit"
+                        value="ارسال الاشعار"
+                      />
+                    </form>
+                  </div>
                 </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                  <div class="titlesadertable">المتواجدون الأن (1)</div>
+                  <div class="contentsadertable">
+                    <span class="whosonline">
+                      <a href="#">محمد العلي</a>,
+                    </span>
+                  </div>
+                  <!-- contentsadertable -->
+                </div>
+                <!-- end col-lg-12 -->
+                <!-- <div class="clearfix"></div> -->
+
+                <div class="clearfix"></div>
               </div>
-              <div class="userstatistic">
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <div class="alert alert-info" role="alert">
-                      <a href="#">
-                        <span>معاملات تحت المتابعة</span>
-                        <p>1</p>
-                      </a>
-                    </div>
-                  </div>
-                  <!-- end col-lg-4 -->
-                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <div class="alert alert-success" role="alert">
-                      <a href="#">
-                        <span>عدد المعاملات المضافة بواسطتك </span>
-                        <p>3</p>
-                      </a>
-                    </div>
-                  </div>
-                  <!-- end col-lg-4 -->
-                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <div class="alert alert-danger" role="alert">
-                      <a href="#">
-                        <span>معاملات متأخرة</span>
-                        <p>1</p>
-                      </a>
-                    </div>
-                  </div>
-                  <!-- end col-lg-4 -->
-                </div>
-              </div>
-              <div class="usertistictable">
-                <div class="titlesadertable">معاملات تحت المتابعة</div>
-                <div class="contentsadertable">
-                  <div class="table-responsive">
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th width="10%">رقم المعامله</th>
-                          <th width="5%">المرفقات</th>
-                          <th width="15%">تاريخ المعاملة</th>
-                          <th width="15%">اضيف بواسطة</th>
-                          <th width="15%">القسم</th>
-                          <th width="10%">نوع المعاملة</th>
-                          <th width="15%">موضوع المعامله</th>
-                          <th width="5%">باركود</th>
-                          <th width="15%">ادارة</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td colspan="9">انتهى وقتها مر عليها 5 ساعة</td>
-                        </tr>
-          
-                        <tr class="danger">
-                          <td>2</td>
-                          <td>0</td>
-                          <td>21 / 12 / 1440</td>
-                          <td>
-                            محمد العلي
-                            <a
-                              href=""
-                              class="btn btn-primary btn-sm"
-                              ><i class="fa fa-cloud"></i
-                            ></a>
-                          </td>
-                          <td>شؤن الموظفين</td>
-                          <td><span class="label label-info">وارد</span></td>
-                          <td>دعوى كيدية</td>
-                          <td>
-                            <a
-                              class="btn btn-outline-secondary btn-sm"
-                              href=""
-                              target="_blank"
-                              ><!-- طبع الباركود --><i class="fa fa-barcode"></i
-                            ></a>
-                          </td>
-                          <td>
-                            <a
-                              class="btn btn-info btn-sm"
-                              href=""
-                              ><i class="fa fa-edit"></i
-                            ></a>
-          
-                            <a
-                              href="#"
-                              data-href=""
-                              data-toggle="modal"
-                              data-target="#confirm-delete"
-                              class="btn btn-effect-ripple btn-sm btn-danger"
-                              ><i class="fa fa-trash"></i
-                            ></a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <!-- end table-responsive -->
-                  <div class="paginationitem"></div>
-          
-                  <!-- end paginationitem -->
-                </div>
-                <!-- end contentsadertable -->
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                    <div class="titlesadertable queck_search">البحث السريع</div>
-                    <div class="contentsadertable queck_search">
-                      <form method="get">
-                        <div class="table-responsive">
-                          <table class="table">
-                            <tbody>
-                              <tr>
-                                <td width="7%">رقم المعامله</td>
-                                <td width="10%">
-                                  <input
-                                    type="text"
-                                    name="index_num"
-                                    value=""
-                                    class="form-control"
-                                  />
-                                </td>
-                                <td width="10%">سنة الصادر/الوارد</td>
-                                <td width="13%">
-                                  <select name="year" class="form-control">
-                                    <option value="1430">1430هـ</option>
-                                    <option value="1431">1431هـ</option>
-                                    <option value="1432">1432هـ</option>
-                                    <option value="1433">1433هـ</option>
-                                    <option value="1434">1434هـ</option>
-                                    <option value="1435">1435هـ</option>
-                                    <option value="1436">1436هـ</option>
-                                    <option value="1437">1437هـ</option>
-                                    <option value="1438">1438هـ</option>
-                                    <option value="1439">1439هـ</option>
-                                    <option value="1440">1440هـ</option>
-                                    <option value="1441">1441هـ</option>
-                                    <option value="1442">1442هـ</option>
-                                    <option value="1443">1443هـ</option>
-                                    <option value="1444" selected="">
-                                      1444هـ
-                                    </option>
-                                  </select>
-                                </td>
-                                <td width="10%">
-                                  <button class="searchbut" type="submit">
-                                    بحث
-                                  </button>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                        <!-- end table-responsive -->
-                      </form>
-                    </div>
-                    <!-- contentsadertable -->
-                  </div>
-                  <!-- end col-lg-12 -->
-          
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                    <div class="titlesadertable out_id">
-                      بحث بحسب المعاملات الخارجية
-                    </div>
-                    <div class="contentsadertable out_id">
-                      <form method="get">
-                        <div class="table-responsive">
-                          <table class="table">
-                            <tbody>
-                              <tr>
-                                <td width="7%">رقم المعاملة الخارجي</td>
-                                <td width="10%">
-                                  <input
-                                    type="text"
-                                    name="id_number_out"
-                                    value=""
-                                    class="form-control"
-                                  />
-                                </td>
-                                <td width="10%">تاريخ المعاملة الخارجي</td>
-                                <td width="13%">
-                                  <input
-                                    type="text"
-                                    name="date_number_out"
-                                    value=""
-                                    class="form-control othercal is-calendarsPicker"
-                                  />
-                                </td>
-                                <td width="10%">
-                                  <button class="searchbut" type="submit">
-                                    بحث
-                                  </button>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                        <!-- end table-responsive -->
-                      </form>
-                    </div>
-                    <!-- contentsadertable -->
-                  </div>
-          
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                    <div class="titlesadertable">اضافة اشعار جديد</div>
-                    <div class="contentsadertable" style="padding: 10px">
-                      <form method="" action="">
-                        <div class="form-group mb-3">
-                          <label for="empgroup" class="small-label">القسم</label>
-                          <select
-                            class="form-control"
-                            id="empgroup"
-                            name="empgroup"
-                          >
-                            <optgroup label="0">
-                              <option value="5">الاتصالات الادارية</option>
-                              <option value="6">موظفي الشؤن الادارية</option>
-                              <option value="7">مجموعة الارشيف</option>
-                            </optgroup>
-                            <option value="all">all</option>
-                          </select>
-                        </div>
-                        <div class="form-group mb-3">
-                          <label for="level" class="small-label">مستوي الاشعار</label>
-                          <select class="form-control" id="level" name="level">
-                            <option value="success">رسالة عامة</option>
-                            <option value="warning">تنبيه</option>
-                            <option value="danger">هام للغاية</option>
-                          </select>
-                        </div>
-                        <div class="form-group mb-3">
-                          <label for="message" class="small-label">رسالة الاشعار</label>
-                          <textarea
-                            class="form-control"
-                            placeholder="رسالة الاشعار"
-                            name="message"
-                            cols="50"
-                            rows="10"
-                            id="message"
-                          ></textarea>
-                        </div>
-                        <input
-                          class="btn btn-success btn-sm"
-                          type="submit"
-                          value="ارسال الاشعار"
-                        />
-                      </form>
-                    </div>
-                  </div>
-          
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                    <div class="titlesadertable">المتواجدون الأن (1)</div>
-                    <div class="contentsadertable">
-                      <span class="whosonline">
-                        <a href="#">محمد العلي</a>,
-                      </span>
-                    </div>
-                    <!-- contentsadertable -->
-                  </div>
-                  <!-- end col-lg-12 -->
-                  <!-- <div class="clearfix"></div> -->
-          
-                  <div class="clearfix"></div>
-                </div>
-                <!-- end row -->
-              </div>
+              <!-- end row -->
             </div>
           </div>
         </div>
