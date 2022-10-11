@@ -110,6 +110,7 @@
                   <img src="img/footer/logo-light.png" />
                 </a>
               </div>
+              <!-- logo -->
               <h1>وزارة الداخلية</h1>
               <h2>امارة عسير</h2>
               <h3>مركز البشائر</h3>
@@ -139,38 +140,60 @@
             <div class="saderform first_saderform">
               <div class="title">
                 <span>
-                  <a href="index.html" class="text-main-color">الرئيسية - </a>
-                  التقارير
+                  <a href="index.html" class="text-main-color">الرئيسية -</a>
+                  النماذج الالكترونية
                 </span>
+                <div class="date">
+                  الثلاثاء 4 أكتوبر 2022 ميلادى - 9 ربيع أول 1444 هجرى
+                  &nbsp;&nbsp;
+                </div>
               </div>
               <div class="content">
-                <div class="row g-3">
-                  <div class="col-md-4">
-                    <div class="inp-holder">
-                      <label for="" class="small-label">من</label>
-                      <input type="date" name="" id="" class="form-control">
+                <form method="get">
+                  <div class="row g-2">
+                    <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-2">
+                      بحث شخصي
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+                      <input
+                        type="text"
+                        name="name"
+                        value=""
+                        placeholder="بحث بعنوان الملف"
+                        class="form-control"
+                      />
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-2">
+                      <button type="submit" class="search-btn">بحث</button>
                     </div>
                   </div>
-                  <div class="col-md-4">
-                    <div class="inp-holder">
-                      <label for="" class="small-label">الي</label>
-                      <input type="date" name="" id="" class="form-control">
-                    </div>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="inp-holder">
-                      <label for="" class="small-label">نوع المعاملة</label>
-                      <select class="main-select w-100 " id="" name="">
-                        <option value="import">وارد</option>
-                        <option value="export">صادر</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-md-2 d-flex align-items-end">
-                    <div class="btn-holder w-100">
-                      <button class="btn-main-sm w-100">تحضير</button>
-                    </div>
-                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="usertistictable">
+              <div class="titlesadertable">آخر النماذج الإلكترونية</div>
+              <div class="contentsadertable">
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>عنوان النموذج</th>
+                        <th>تاريخ الاضافة	</th>
+                        <th>رابط الملف</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr >
+                        <td>اجازة رسمية شهر	</td>
+                        <td>21 / 12 / 1440</td>
+                        <td>
+                          <button class="btn btn-primary btn-sm">
+                            <i class="fa-solid fa-download"></i>
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>

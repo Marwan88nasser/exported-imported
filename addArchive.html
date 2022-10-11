@@ -141,7 +141,7 @@
               <div class="title">
                 <span>
                   <a href="index.html" class="text-main-color">الرئيسية - </a>
-                  اضافة وارد جديد
+                  إضافة أرشيف
                 </span>
               </div>
               <div class="content">
@@ -149,38 +149,44 @@
                   <table class="table">
                     <tbody>
                       <tr>
-                        <td>رقم الصادر</td>
-                        <td>1</td>
-                        <td>1444</td>
-                        <td>16 / 3 / 1444 - 01:38:43</td>
+                        <td width="25%">رقم  الأرشيف</td>
+                        <td width="25%">1</td>
+                        <td width="25%">1444</td>
+                        <td width="25%"> 16 /  3 / 1444 - 03:38:21</td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
-                <div class="row g-3 mt-3">
-                  <div class="col-md-3">
-                    <div class="inp-holder">
-                      <label for="" class="small-label">الجهات</label>
-                      <select class="main-select w-100" id="" name="">
-                        <option value="5">البلدية</option>
-                        <option value="6">البلدية</option>
-                        <option value="7">مكتب الرياض</option>
-                        <option value="8">مكتب جدة</option>
-                        <option value="0">آخرى</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="inp-holder">
-                      <label for="" class="small-label">درجة الاهمية</label>
-                      <select class="main-select w-100">
-                        <option value="1">عاجل</option>
-                        <option value="2">هام </option>
-                        <option value="3">سري</option>
-                        <option value="4">سرية للغاية</option>
-                      </select>
-                    </div>
-                  </div>
+                <div class="table-responsive">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <label for="authorities">الجهات</label>
+                        </td>
+                        <td>
+                          <select class="main-select w-100" id="" name="">
+                            <option value="5">البلدية</option>
+                            <option value="6">البلدية</option>
+                            <option value="7">مكتب الرياض</option>
+                            <option value="8">مكتب جدة</option>
+                            <option value="0">آخرى</option>
+                          </select>
+                        </td>
+                        <td width="25%">درجة الاهمية</td>
+                        <td width="25%">                  
+                          <select class="main-select w-100" name="">
+                            <option value="1">عاجل</option>
+                            <option value="2">هام </option>
+                            <option value="3">سري</option>
+                            <option value="4">سرية للغاية</option>
+                          </select>
+                        </td> 
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="row g-3 mt-2">
                   <div class="col-md-3">
                     <div class="inp-holder">
                       <label for="" class="small-label">نوع المعاملة</label>
@@ -246,45 +252,14 @@
                   </div>
                   <div class="col-md-3">
                     <div class="inp-holder">
-                      <label for="" class="small-label">رقم المعاملة الخارجي</label>
+                      <label for="" class="small-label">رقم المعاملة</label>
                       <input type="text" class="form-control" />
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="inp-holder">
-                      <label for="" class="small-label">تاريخ المعاملة الخارجي</label>
+                      <label for="" class="small-label">سنة المعاملة</label>
                       <input type="text" class="form-control" />
-                    </div>
-                  </div>
-                  <div class="col-md-3 d-flex align-items-end">
-                    <div class="inp-holder mb-1 d-flex align-items-center gap-4">
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                          نعم
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                        <label class="form-check-label" for="flexRadioDefault2">
-                          لا
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 d-flex align-items-end">
-                    <div class="inp-holder mb-1">
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          value=""
-                          id="flexCheckDefault"
-                        />
-                        <label class="form-check-label" for="flexCheckDefault">
-                          هل تود إرسال رسالة نصية
-                        </label>
-                      </div>
                     </div>
                   </div>
                   <div class="col-md-3">
