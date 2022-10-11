@@ -19,7 +19,8 @@ button {
   outline: none;
 }
 
-.btn-warning, .btn-info {
+.btn-warning,
+.btn-info {
   color: $white-color;
   &:hover {
     color: $white-color;
@@ -72,3 +73,10 @@ button {
 }
 /* end scroll bar */
 
+.btn-warning,
+.btn-info {
+  color: $white-color;
+  &:hover {
+    color: $white-color;
+  }
+}

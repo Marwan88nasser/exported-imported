@@ -1,4 +1,4 @@
-// home Side
+// home style
 .homeside {
   background: #f9f9f9;
   border: 1px solid #eee;
@@ -106,7 +106,7 @@
       font-size: 14px;
       height: 40px;
       &::placeholder {
-        font-size: 11px !important;
+        font-size: 12px !important;
       }
     }
     button {
@@ -116,7 +116,7 @@
       color: #ffffff;
       display: block;
       font-size: 14px;
-      height: 40px;
+      height: 38px;
       padding: 0 10px;
       width: 100%;
       transition: $transition;
@@ -177,9 +177,15 @@
     }
     tbody {
       tr {
+        // @include minWidth(xs) {
+        //   td {
+        //     white-space: nowrap;
+        //   }
+        // }
         &.danger {
           background-color: #f2dede;
         }
+
         td {
           border-bottom: 1px solid #eeeeee;
           border-top: medium none;
@@ -187,6 +193,7 @@
           font-size: 11px;
           line-height: normal;
           padding: 7px;
+          white-space: nowrap;
           text-align: center;
           vertical-align: middle;
         }
@@ -219,6 +226,12 @@
 .usertistictable .contentsadertable.out_id button.searchbut {
   background: #2196f3;
   border-color: #1287e4;
+  transition: $transition;
+}
+.usertistictable .contentsadertable.queck_search button.searchbut:hover,
+.usertistictable .contentsadertable.out_id button.searchbut:hover {
+  background: #1c84d8;
+  border-color: #1c84d8;
 }
 
 .usertistictable .contentsadertable span.whosonline {
@@ -237,3 +250,4 @@
     transition: all 0.2s ease-in-out;
   }
 }
+// end home style
